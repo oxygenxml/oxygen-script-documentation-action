@@ -36,5 +36,6 @@ jobs:
 # Deployment to GitHub Pages
 After a successful run of the Documentation Script, the documentation files are pushed to the <i>gh-pages</i> branch. 
 If you want the documentation to be published to GitHub Pages, all you have to do is go to Settings &rarr; Pages, and under <i>Build and deployment</i> section select the <i>gh-pages</i> branch instead of the <i>main</i> branch. 
+
 The deployment workflow should automatically start and the documentation should be available shortly at: https://{userid}.github.io/{reponame}/{schemaFile}.html.
 
