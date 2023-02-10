@@ -1,4 +1,4 @@
-name: Oxygen Generate Documentation Action
+name: Oxygen Documentation Action
 description: Document your schemas using Oxygen Scripting
 branding:
   icon: 'book-open'
