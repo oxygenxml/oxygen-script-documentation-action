@@ -35,7 +35,7 @@ jobs:
         with:
           schemaFile: ${{ inputs.schemaFile }}
 ```
-👀 Check [Oxygen Scripting - Documentation template](https://github.com/oxygenxml/oxygen-script-validation-template) for a ready-to-use template with some sample schema files.
+👀 Check [Oxygen Scripting - Documentation template](https://github.com/oxygenxml/oxygen-script-documentation-template) for a ready-to-use template with some sample schema files.
 
 # Deployment to GitHub Pages
 After a successful run of the Documentation Script, the documentation files are pushed to the <i>gh-pages</i> branch. 
