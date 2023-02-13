@@ -1,7 +1,7 @@
 # Oxygen Documentation Action
 This action triggers <i>Oxygen Scripting</i> to generate documentation for schema files on your repository. For the moment, it can only work with XSD, XSL and WSDL files. All you have to do is to include this action in your workflow and choose the schema to document. Find more info about workflows on https://docs.github.com/en/actions/using-workflows.
 
-👀 See [Oxygen Scripting](https://www.oxygenxml.com/doc/versions/25.0/ug-editor/topics/scripting_oxygen.html) for more details about this script.
+👀 See [Oxygen Scripting](https://www.oxygenxml.com/doc/versions/25.0/ug-editor/topics/scripting_oxygen.html) for more details about this script, and other useful tools.
 
 # Requirements
 In order to use this action, you need to obtain an <i>Oxygen Scripting</i> license key from https://www.oxygenxml.com/xml_scripting/pricing.html (you can also request a [trial](https://www.oxygenxml.com/xml_scripting/register.html)). Add it as a secret to your repository (Settings &rarr; Secrets &rarr; Actions &rarr; New repository secret), and name it "SCRIPTING_LICENSE_KEY".
