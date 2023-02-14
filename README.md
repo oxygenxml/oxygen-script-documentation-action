@@ -35,6 +35,27 @@ jobs:
         with:
           schemaFile: ${{ inputs.schemaFile }}
 ```
+💡 This workflow starts whenever an XSD file is changed, and runs the Documentation Script for the main XSD file.
+```yaml
+name: Run Documentation Script (for XSD files)
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.xsd'
+jobs:
+  generate-doc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Oxygen Documentation Script
+        uses: oxygenxml/oxygen-script-documentation-action@v1.0.0
+        env:
+          SCRIPTING_LICENSE_KEY: ${{secrets.SCRIPTING_LICENSE_KEY}}
+        with:
+          schemaFile: schemas/main.xsd
+```
+
 👀 Check [Oxygen Scripting - Documentation template](https://github.com/oxygenxml/oxygen-script-documentation-template) for a ready-to-use template with some sample schema files.
 
 # Deployment to GitHub Pages
