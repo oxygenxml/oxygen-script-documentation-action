@@ -1,5 +1,5 @@
-name: Oxygen Documentation Action
-description: Document your schemas using Oxygen Scripting
+name: Oxygen XML/JSON - Generate Documentation
+description: Generate XML Schema (XSD), XSLT and WSDL documentation using Oxygen Scripting
 branding:
   icon: 'book-open'
   color: 'blue'
