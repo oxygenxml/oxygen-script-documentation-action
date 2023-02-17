@@ -1,5 +1,5 @@
 # Oxygen Documentation Action
-This action triggers <i>Oxygen Scripting</i> to generate documentation for schema files on your repository. For the moment, it can only work with [XML Schema (XSD)](https://www.oxygenxml.com/xml_editor/xml_schema_documentation.html), [XSL](https://www.oxygenxml.com/xml_editor/xml_schema_documentation.html) and [WSDL](https://www.oxygenxml.com/xml_editor/xml_schema_documentation.html) files. All you have to do is to include this action in your workflow and choose the schema to document. Find more info about workflows on https://docs.github.com/en/actions/using-workflows.
+This action triggers <i>Oxygen Scripting</i> to generate documentation for schema files on your repository. For the moment, it can only work with [XML Schema (XSD)](https://www.oxygenxml.com/xml_editor/xml_schema_documentation.html), [XSLT](https://www.oxygenxml.com/xml_editor/xslt_documentation.html) and [WSDL](https://www.oxygenxml.com/xml_editor/wsdl_documentation.html) files. All you have to do is to include this action in your workflow and choose the schema to document. Find more info about workflows on https://docs.github.com/en/actions/using-workflows.
 
 👀 See [Oxygen Scripting](https://www.oxygenxml.com/doc/versions/25.0/ug-editor/topics/scripting_oxygen.html) for more details about this script, and other useful tools.
 
