@@ -1,5 +1,5 @@
 name: Oxygen XML/JSON - Generate Documentation
-description: Generate XML Schema (XSD), XSLT and WSDL documentation using Oxygen Scripting
+description: Generate XML Schema (XSD), XSLT, WSDL, JSON Schema and OpenAPI documentation in HTML format using Oxygen Scripting
 branding:
   icon: 'book-open'
   color: 'blue'
